@@ -1,0 +1,123 @@
+body {
+    text-align: center;
+    margin: 0;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 5.625rem;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+}
+
+.football-bottom {
+    display: flex;
+    position: absolute;
+    right: 50px;
+}
+
+.football-top {
+    display: flex;
+    position: relative;
+}
+
+.top-container {
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 200px;
+    outline: 1px solid red;
+}
+
+.middle-container {
+    margin: 100px 0;
+}
+
+.intro {
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+p {
+    line-height: 2;
+    font-family: "Poppins", sans-serif;
+}
+
+hr {
+    margin: 100px auto;
+}
+
+.football {
+    width: 100%;
+    position: relative;
+    right: 5px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    text-align: left;
+    margin: 100px auto 0 auto;
+    row-gap: 2rem;
+}
+
+h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+.passion {
+    font-weight: 500;
+    text-align: center;
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+a {
+    color: #11999e;
+    font-family: "Poppins", sans-serif;
+    margin: 10px 20px;
+}
+
+.bottom-container {
+    background-color: #66bfbf;
+    padding: 50px 0 20px;
+}
+
+.copyright {
+    color: #eaf6f6;
+    font-size: 0.75rem;
+    padding: 20px 0;
+}
